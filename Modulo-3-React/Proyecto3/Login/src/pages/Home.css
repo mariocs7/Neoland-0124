@@ -1,0 +1,17 @@
+.Home {
+    /* Utiliza un gradiente como fondo */
+    background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+    /* Añade una sombra para dar profundidad */
+    box-shadow: 0 3px 5px 2px rgba(255, 105, 135, .3);
+    /* Centra el contenido */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Añade una transición suave para los cambios de color */
+    transition: background 0.5s ease;
+  }
+  
+  .Home:hover {
+    /* Cambia el color de fondo al pasar el mouse */
+    background: linear-gradient(45deg, #2196F3 30%, #21CBF3 90%);
+  }

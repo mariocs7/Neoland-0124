@@ -1,0 +1,96 @@
+/* Estilos generales */
+header {
+    min-height: 20vh;
+    width: 100vw;
+    background-image: url('ruta/a/tu/imagen.jpg');
+    background-color: #08307f; /* Cambio de color */
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Añadido para separar los elementos del header */
+    padding: 0 2rem; /* Añadido para dar un poco de espacio a los lados */
+}
+
+nav {
+    display: flex;
+    gap: 1rem;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none; /* Añadido para eliminar el subrayado de los enlaces */
+    color: white; /* Añadido para cambiar el color del texto de los enlaces */
+}
+
+/* Estilos para los títulos */
+.titleHeaderBlack {
+    position: absolute;
+    color: white;
+    top: 2px;
+}
+
+.titleContainer,
+.titleFatherContainer {
+    color: #fff; /* Cambio de color */
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Añadido para dar un efecto de sombra al texto */
+}
+
+.titleContainer {
+    position: relative;
+}
+
+/* Estilos para los iconos */
+.logo,
+.iconNav,
+.iconNav.home,
+.iconDashBoard {
+    width: 60px;
+}
+
+.iconNav.home {
+    transform: scale(1.2);
+}
+
+.iconLogout {
+    transform: scale(0.8);
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border: solid 7px black;
+    border-radius: 50%;
+}
+
+.profileCircle {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: solid black 6px;
+}
+
+/* Estilos para otros elementos */
+.whiteContainer {
+    width: 100vw;
+    height: 1vh;
+    background-color: white;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 700px) {
+    header {
+        flex-direction: column;
+    }
+
+    .logo {
+        width: 50px;
+    }
+
+    .titleFatherContainer {
+        width: 263px;
+    }
+}

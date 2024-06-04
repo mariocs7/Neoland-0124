@@ -1,0 +1,15 @@
+.digital-clock {
+    font-size: 32px; 
+    width: 100%;
+    height: 100%;
+    color: #000080; 
+    background-color: #2bcd71; 
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px; 
+    box-sizing: border-box; 
+    transition: background-color 0.3s ease; 
+}

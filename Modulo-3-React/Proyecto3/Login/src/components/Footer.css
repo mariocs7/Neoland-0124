@@ -1,0 +1,17 @@
+footer {
+    width: 100%;
+    min-height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3f51b5; /* Cambio de color */
+    padding: 0 2rem; /* Añadido para dar un poco de espacio a los lados */
+    color: white; /* Cambio de color del texto */
+    font-size: 1.2rem; /* Aumento del tamaño del texto */
+}
+
+.whiteContainer {
+    width: 100%;
+    height: 1vh;
+    background-color: white;
+}

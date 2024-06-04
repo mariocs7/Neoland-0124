@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.form-wrap {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+.form-wrap h1 {
+    font-size: 30px;
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.form-wrap .form-group {
+    margin-bottom: 20px;
+}
+
+.form-wrap .form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-wrap .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px; /* Añade bordes redondeados a los campos de entrada */
+}
+
+/* Estilos para el radio button seleccionado */
+input[type="radio"]:checked + .label-radio {
+    background: #2f7a67;
+    color: #fff;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Añade transiciones suaves al cambiar los colores */
+    border-radius: 4px; /* Añade bordes redondeados para un aspecto más moderno */
+}
+
+/* Estilos para el enlace */
+.anchorCustom {
+    color: #276052;
+    transition: color 0.3s ease;
+    text-decoration: none; /* Elimina el subrayado del enlace */
+}
+
+/* Estilos para el enlace al pasar el ratón por encima */
+.anchorCustom:hover {
+    color: #400303;
+    text-decoration: underline; /* Añade un subrayado al pasar el ratón por encima para indicar que es un enlace interactivo */
+}

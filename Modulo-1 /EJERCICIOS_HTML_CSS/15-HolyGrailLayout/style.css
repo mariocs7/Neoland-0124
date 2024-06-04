@@ -1,0 +1,53 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-areas: 
+      "header header"
+      "nav ."
+      "article ."
+      "sidebar ."
+      "footer footer";
+    grid-template-columns: 1fr 2fr; /* La segunda columna es dos veces más grande que la primera */
+    grid-template-rows: 1fr 1fr 5fr 1fr 1fr; /* La tercera fila es cinco veces más grande que las demás */
+    gap: 15px;
+  }
+
+  .container div {
+    padding: 15px;
+    font-size: 32px;
+    font-family: Helvetica;
+    font-weight: bold;
+    color: white;
+    border-radius: 15px;
+  }
+  
+  .header {
+    background-color: #FFDE22;
+  }
+  
+  .sidebar {
+    background-color: #FF7755;
+  }
+  
+  .nav {
+    background-color: #00DDFF;
+  }
+  
+  .article {
+    background-color: #bccbde;
+  }
+  
+  .article p {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: white;
+    text-align: left;
+  }
+  
+  .footer {
+    background-color: #393f4d;
+  }

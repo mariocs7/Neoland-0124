@@ -1,0 +1,7 @@
+import * from "./Title/Title"
+import * from "./Footer/Footer"
+import * from "./Header/Header"
+import * from "./Main/Main"
+import * from "./Subtitle/Subtitle"
+import * from "./Image/Image"
+import * from "./Paragraph/Paragraph"
